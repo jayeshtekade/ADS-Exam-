@@ -5,7 +5,7 @@ class sorting_Q1
 	void insertion(int a1[]){
 		int n=a1.length-1;
 		int key=a1[n];
-		for(int j=n-1;j<=0;j--){
+		for(int j=n-1;j>=0;j--){
 			if(a1[j]>key){
 				a1[j+1]=a1[j];
 				display(a1,n);
